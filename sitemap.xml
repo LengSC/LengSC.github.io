@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lengsc.github.io/categories/index.html</loc>
+    <loc>https://lengsc.xyz/categories/index.html</loc>
     
     <lastmod>2023-12-29</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://lengsc.github.io/tags/index.html</loc>
+    <loc>https://lengsc.xyz/tags/index.html</loc>
     
     <lastmod>2023-12-29</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://lengsc.github.io/about/index.html</loc>
+    <loc>https://lengsc.xyz/about/index.html</loc>
     
     <lastmod>2023-12-29</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://lengsc.github.io/2023/09/29/travelogue-for-csp-js-2023-round-1/</loc>
+    <loc>https://lengsc.xyz/2023/09/29/travelogue-for-csp-js-2023-round-1/</loc>
     
     <lastmod>2023-12-29</lastmod>
     
@@ -39,7 +39,7 @@
   
 
   <url>
-    <loc>https://lengsc.github.io/</loc>
+    <loc>https://lengsc.xyz/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -47,21 +47,21 @@
 
   
   <url>
-    <loc>https://lengsc.github.io/tags/Bygones-%E5%BE%80%E4%BA%8B/</loc>
+    <loc>https://lengsc.xyz/tags/Bygones-%E5%BE%80%E4%BA%8B/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lengsc.github.io/tags/OI-%E4%BF%A1%E5%A5%A5/</loc>
+    <loc>https://lengsc.xyz/tags/OI-%E4%BF%A1%E5%A5%A5/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lengsc.github.io/tags/CSP-J-S/</loc>
+    <loc>https://lengsc.xyz/tags/CSP-J-S/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -70,7 +70,7 @@
 
   
   <url>
-    <loc>https://lengsc.github.io/categories/Travelogues-%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://lengsc.xyz/categories/Travelogues-%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
