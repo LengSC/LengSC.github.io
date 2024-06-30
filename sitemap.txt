@@ -1,12 +1,16 @@
+https://blog.lengsc.xyz/2024/06/30/hexo-theme-next-configure-font-to-LXGW-WenKai/
+https://blog.lengsc.xyz/2023/09/29/travelogue-for-csp-js-2023-round-1/
 https://blog.lengsc.xyz/posters/index.html
 https://blog.lengsc.xyz/lib/pace/README.html
 https://blog.lengsc.xyz/about/index.html
-https://blog.lengsc.xyz/2023/09/29/travelogue-for-csp-js-2023-round-1/
 https://blog.lengsc.xyz/CHANGELOG/index.html
 https://blog.lengsc.xyz/categories/index.html
 https://blog.lengsc.xyz/tags/index.html
 https://blog.lengsc.xyz/
+https://blog.lengsc.xyz/tags/Hexo/
+https://blog.lengsc.xyz/tags/NexT/
 https://blog.lengsc.xyz/tags/Bygones-%E5%BE%80%E4%BA%8B/
 https://blog.lengsc.xyz/tags/OI-%E4%BF%A1%E5%A5%A5/
 https://blog.lengsc.xyz/tags/CSP-J-S/
+https://blog.lengsc.xyz/categories/Optimize-%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98/
 https://blog.lengsc.xyz/categories/Travelogues-%E6%B8%B8%E8%AE%B0/
