@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>为 Hexo NexT 主题配置霞鹜文楷字体</title>
+    <url>/posts/98fbb6e8/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>逛 GitHub 时发现一款非常好康的字体——<a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>。</p>
+<p>我是如此时尚（虽然它已经发布好久了），自然要把它请进我的小站。这里记一下折腾过程。</p>
+<span id="more"></span>
+<h2 id="修改步骤">修改步骤</h2>
+<ol>
+<li class="lvl-3">
+<p>新建 <code>source/_data/head.njk</code> 并添加如下内容：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://fastly.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li class="lvl-3">
+<p>修改 <strong>NexT</strong> 主题的 <code>_config.yml</code></p>
+<ol>
+<li class="lvl-6">
+<p>找到 <code>custom_file_path</code> 项，添加（或取消注释）<code>head: source/_data/head.njk</code></p>
+</li>
+<li class="lvl-6">
+<p>找到 <code>Font Settings</code>，更改为：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">host:</span> <span class="string">https://fonts.loli.net</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">&quot;LXGW WenKai&quot;</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">&quot;LXGW WenKai Mono, Source Code Pro&quot;</span></span><br><span class="line">    <span class="comment"># family: &quot;JetBrains Mono&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li class="lvl-3">
+<p>齐活！✅</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Optimize | 配置调优</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+</search>
