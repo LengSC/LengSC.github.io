@@ -3,11 +3,11 @@
   <entry>
     <title>为 Hexo NexT 主题配置霞鹜文楷字体</title>
     <url>/posts/98fbb6e8/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
+    <content><![CDATA[<h2 id="前言"><a class="header-anchor" href="#前言"></a>前言</h2>
 <p>逛 GitHub 时发现一款非常好康的字体——<a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>。</p>
 <p>我是如此时尚（虽然它已经发布好久了），自然要把它请进我的小站。这里记一下折腾过程。</p>
 <span id="more"></span>
-<h2 id="修改步骤">修改步骤</h2>
+<h2 id="修改步骤"><a class="header-anchor" href="#修改步骤"></a>修改步骤</h2>
 <ol>
 <li class="lvl-3">
 <p>新建 <code>source/_data/head.njk</code> 并添加如下内容：</p>
