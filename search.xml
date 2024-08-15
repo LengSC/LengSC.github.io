@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Ubuntu 24.04 LTS 安装 webkit2gtk 4.0</title>
+    <url>/posts/7960e1d6/</url>
+    <content><![CDATA[<h2 id="0x0-前言"><a class="header-anchor" href="#0x0-前言"></a>0x0. 前言</h2>
+<p>前几天在 Ubuntu 24.04 LTS 上安装 <a href="https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.7.5">Clash Verge Rev v1.7.5</a>（amd64）时，出现其依赖项 <code>libwebkit2gtk-4.0-37</code> 已弃用的错误。<br>
+这里记一下折腾过程。</p>
+<span id="more"></span>
+<h2 id="0x1-问题概括"><a class="header-anchor" href="#0x1-问题概括"></a>0x1. 问题概括</h2>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">❯ sudo apt install ./clash-verge_1.7.5_amd64.deb</span><br><span class="line">...</span><br><span class="line">下列软件包有未满足的依赖关系:</span><br><span class="line"> clash-verge : 依赖: libwebkit2gtk-4.0-37 但无法安装它</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<h2 id="0x2-解决方案"><a class="header-anchor" href="#0x2-解决方案"></a>0x2. 解决方案</h2>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>官方解决方案，详见官方文档相应的 <a href="https://clash-verge-rev.github.io/faq/linux.html#ubuntu-2404">FA♂Q</a> 页面。</p>
+</li>
+<li class="lvl-2">
+<p>我的解决方案（通过修改 apt 源）</p>
+<p>编辑 <code>/etc/apt/sources.list.d/ubuntu.sources</code>，添加如下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Types: deb</span><br><span class="line">URIs: http://br.archive.ubuntu.com/ubuntu/</span><br><span class="line">Suites: jammy noble-updates noble-backports</span><br><span class="line">Components: main restricted universe multiverse</span><br><span class="line">Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg</span><br><span class="line"></span><br><span class="line">Types: deb</span><br><span class="line">URIs: http://security.ubuntu.com/ubuntu/</span><br><span class="line">Suites: jammy-security</span><br><span class="line">Components: main restricted universe multiverse</span><br><span class="line">Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg</span><br></pre></td></tr></table></figure>
+<p>然后该咋整就咋整：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install libwebkit2gtk-4.0-37</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="0x3-问题分析"><a class="header-anchor" href="#0x3-问题分析"></a>0x3. 问题分析</h2>
+<p>问题主因，即为了向下兼容，Clash Verge Rev 的上游 <a href="https://github.com/tauri-apps/tauri">Tauri</a> 使用了 webkit2gtk 4.0，而 Ubuntu 24.04 LTS 的默认 apt 源中将其移除，转而包含 webkit2gtk 4.1。</p>
+]]></content>
+      <categories>
+        <category>Software Installing | 软件安装</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu 24.04 LTS</tag>
+        <tag>webkit2gtk</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>为 Hexo NexT 主题配置霞鹜文楷字体</title>
     <url>/posts/98fbb6e8/</url>
-    <content><![CDATA[<h2 id="前言"><a class="header-anchor" href="#前言"></a>前言</h2>
+    <content><![CDATA[<h2 id="0x0-前言"><a class="header-anchor" href="#0x0-前言"></a>0x0. 前言</h2>
 <p>逛 GitHub 时发现一款非常好康的字体——<a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>。</p>
-<p>我是如此时尚（虽然它已经发布好久了），自然要把它请进我的小站。这里记一下折腾过程。</p>
+<p>我是如此时尚（虽然它已经发布好久了），自然要把它请进我的小站。<br>
+这里记一下折腾过程。</p>
 <span id="more"></span>
-<h2 id="修改步骤"><a class="header-anchor" href="#修改步骤"></a>修改步骤</h2>
+<h2 id="0x1-修改步骤"><a class="header-anchor" href="#0x1-修改步骤"></a>0x1. 修改步骤</h2>
 <ol>
 <li class="lvl-3">
 <p>新建 <code>source/_data/head.njk</code> 并添加如下内容：</p>
