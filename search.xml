@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>永别了，朋友们！</title>
-    <url>/posts/7e1974d2/</url>
+    <url>/p/7e1974d2/</url>
     <content><![CDATA[<h2 id="0x0-终章"><a class="header-anchor" href="#0x0-终章"></a>0x0. 终章</h2>
 <p>永别了，我的朋友们。<br>
 感谢你们，陪伴我度过了大部分童年和小部分青年时光。<br>
@@ -26,7 +26,7 @@ Live Long and Prosper!
   </entry>
   <entry>
     <title>Ubuntu 24.04 LTS 安装 webkit2gtk 4.0</title>
-    <url>/posts/7960e1d6/</url>
+    <url>/p/7960e1d6/</url>
     <content><![CDATA[<h2 id="0x0-前言"><a class="header-anchor" href="#0x0-前言"></a>0x0. 前言</h2>
 <p>前几天在 Ubuntu 24.04 LTS 上安装 <a href="https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.7.5">Clash Verge Rev v1.7.5</a>（amd64）时，出现其依赖项 <code>libwebkit2gtk-4.0-37</code> 已弃用的错误。<br>
 这里记一下折腾过程。</p>
@@ -59,7 +59,7 @@ Live Long and Prosper!
   </entry>
   <entry>
     <title>为 Hexo NexT 主题配置霞鹜文楷字体</title>
-    <url>/posts/98fbb6e8/</url>
+    <url>/p/98fbb6e8/</url>
     <content><![CDATA[<h2 id="0x0-前言"><a class="header-anchor" href="#0x0-前言"></a>0x0. 前言</h2>
 <p>逛 GitHub 时发现一款非常好康的字体——<a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>。</p>
 <p>我是如此时尚（虽然它已经发布好久了），自然要把它请进我的小站。<br>
