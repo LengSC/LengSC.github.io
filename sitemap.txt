@@ -1,3 +1,4 @@
+https://blog.lengsc.xyz/p/1e1bc542/
 https://blog.lengsc.xyz/p/7e1974d2/
 https://blog.lengsc.xyz/about/
 https://blog.lengsc.xyz/p/7960e1d6/
@@ -15,3 +16,4 @@ https://blog.lengsc.xyz/tags/webkit2gtk/
 https://blog.lengsc.xyz/categories/Announcement-%E5%85%AC%E5%91%8A/
 https://blog.lengsc.xyz/categories/Optimization-%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98/
 https://blog.lengsc.xyz/categories/Software-Installing-%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/
+https://blog.lengsc.xyz/categories/Weekly-%E5%91%A8%E6%8A%A5/
