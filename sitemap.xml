@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.lengsc.xyz/p/a04d2fd8/</loc>
+    
+    <lastmod>2025-01-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.lengsc.xyz/p/d74a1f4e/</loc>
     
     <lastmod>2025-01-14</lastmod>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://blog.lengsc.xyz/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,35 +111,35 @@
   
   <url>
     <loc>https://blog.lengsc.xyz/tags/Finale/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/tags/Hexo/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/tags/NexT/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/tags/Ubuntu-24-04-LTS/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/tags/webkit2gtk/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -139,28 +148,28 @@
   
   <url>
     <loc>https://blog.lengsc.xyz/categories/Announcement-%E5%85%AC%E5%91%8A/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/categories/Optimization-%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/categories/Software-Installing-%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.lengsc.xyz/categories/Weekly-%E5%91%A8%E6%8A%A5/</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
