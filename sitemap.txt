@@ -1,3 +1,4 @@
+https://blog.lengsc.xyz/p/774bcf74/
 https://blog.lengsc.xyz/p/7eda2b7f/
 https://blog.lengsc.xyz/p/a04d2fd8/
 https://blog.lengsc.xyz/p/d74a1f4e/
@@ -18,5 +19,6 @@ https://blog.lengsc.xyz/tags/Hexo/
 https://blog.lengsc.xyz/tags/NexT/
 https://blog.lengsc.xyz/categories/Announcement-%E5%85%AC%E5%91%8A/
 https://blog.lengsc.xyz/categories/Software-Installing-%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/
-https://blog.lengsc.xyz/categories/Weekly-%E5%91%A8%E6%8A%A5/
 https://blog.lengsc.xyz/categories/Optimization-%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98/
+https://blog.lengsc.xyz/categories/Essays-%E9%9A%8F%E7%AC%94/
+https://blog.lengsc.xyz/categories/Essays-%E9%9A%8F%E7%AC%94/Weeklies-%E5%91%A8%E6%8A%A5/
